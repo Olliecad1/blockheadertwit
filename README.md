@@ -55,5 +55,5 @@ os.system('python /home/pi/Music/first1.py')
 ### /home/pi/Music/first1.py is an example path, you will need to put in YOUR path location for first1.py
 
 ## command to put in bitcoin.conf
-### blocknotify='location of the file' %s
+### blocknotify='location of block1.py' %s
 
