@@ -22,7 +22,7 @@ oauth_token_secret = ''
 twitter = Twython(app_key, app_secret, oauth_token, oauth_token_secret)
 #The above should just be a single line, without the break
 
-#/home/pi/Music/first1.py is the path location of the file to run it
+#/home/pi/Music/first1.py is AN EXAMPLE path location of the file to run it
 os.system('python /home/pi/Music/first1.py')
 
 p2 = "TXVol: "
