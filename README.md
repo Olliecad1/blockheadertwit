@@ -1,13 +1,38 @@
-blockheadertwit
-===============
+Twitter Bot Bitcoin Development Running In Python
 
-Bitcoin blockheaders over twitter
+### Setting up bitcoin python module
 
-Includes jgarzik's bitcoinrpc as a submodule:
+## Installing the modules that are required
+```
+git clone https://github.com/petertodd/python-bitcoinlib
+```
 
-    git submodule update --init
+### Then run the following commands to install
 
-See source for details.
+```
+cd python-bitcoinlib
+sudo python setup.py build
+sudo python setup.py install
+```
 
-Update: twitter eventually seemed to have blocked this bot - haven't had time
-        to look into it.
+### Setting up one of the twitter modules
+
+```
+pip install twython
+```
+
+### Setting up the other twitter module
+
+```
+git clone https://github.com/tweepy/tweepy.git
+cd tweepy
+sudo python setup.py install
+```
+
+## You have to also execute the .py file like you would with a bash script
+
+### sudo chmod +x ./block.py ./code.py
+
+command to put in bitcoin.conf
+### blocknotify='location of the file' %s
+
